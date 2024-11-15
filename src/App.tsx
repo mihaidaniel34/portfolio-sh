@@ -81,8 +81,8 @@ const App: React.FC = () => {
             <div className="pl-6 space-y-2">
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-violet-500" />
-                <a href="mailto:potirnichemd@gmail.com" className="hover:text-violet-400 transition-colors">
-                  potirnichemd@gmail.com
+                <a href="mailto:contact@danielmihai.com" className="hover:text-violet-400 transition-colors">
+                  contact@danielmihai.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
