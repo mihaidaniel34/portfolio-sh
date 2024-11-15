@@ -179,7 +179,7 @@ const App: React.FC = () => {
                   className="block"
                 >
                   <h3 className="text-zinc-200 font-bold hover:text-violet-400 transition-colors">
-                    Bitcoin in Rust
+                    Bitcoin in Rust -- WIP
                   </h3>
                   <p className="text-zinc-400 mt-2">
                     Toy implementation of the Bitcoin protocol based on the original whitepaper. 
