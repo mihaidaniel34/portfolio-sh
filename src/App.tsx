@@ -146,7 +146,70 @@ const App: React.FC = () => {
               <span className="text-violet-500">projects</span> --list
             </CommandPrompt>
             <div className="pl-6 space-y-6">
-              {/* Project 1 */}
+              {/* Project 1 */}  
+              <div className="border border-zinc-800 bg-zinc-900/30 p-4 rounded-lg hover:border-violet-500 transition-colors">
+                <a 
+                  href="https://github.com/mihaidaniel34/bitcoin-in-rust" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="block"
+                >
+                  <h3 className="text-zinc-200 font-bold hover:text-violet-400 transition-colors">
+                    Bitcoin in Rust
+                  </h3>
+                  <p className="text-zinc-400 mt-2">
+                    Toy implementation of the Bitcoin protocol based on the original whitepaper. 
+                  </p>
+                  <div className="flex gap-2 mt-2 text-zinc-500 text-sm">
+                    <span>#rust</span>
+                    <span>#bitcoin</span>
+                    <span>#blockchain</span>
+                  </div>
+                </a>
+              </div>
+              {/* Project 2 */}
+              <div className="border border-zinc-800 bg-zinc-900/30 p-4 rounded-lg hover:border-violet-500 transition-colors">
+                <a 
+                  href="https://www.pepegen.sh/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="block"
+                >
+                  <h3 className="text-zinc-200 font-bold hover:text-violet-400 transition-colors">
+                    Pepegen
+                  </h3>
+                  <p className="text-zinc-400 mt-2">
+                    Pepe image generator based on your X profile. Meme project that reached over 400 users in less than a day. Made using a Flux LoRa trained on a dataset of 1000 pepe images. 
+                  </p>
+                  <div className="flex gap-2 mt-2 text-zinc-500 text-sm">
+                    <span>#flux</span>
+                    <span>#lora</span>
+                    <span>#image-generation</span>
+                  </div>
+                </a>
+              </div>
+              {/* Project 3 */}
+              <div className="border border-zinc-800 bg-zinc-900/30 p-4 rounded-lg hover:border-violet-500 transition-colors">
+                <a 
+                  href="https://url.danielmihai.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="block"
+                >
+                  <h3 className="text-zinc-200 font-bold hover:text-violet-400 transition-colors">
+                    Url Shortener
+                  </h3>
+                  <p className="text-zinc-400 mt-2">
+                    Simple url shortener written in Go using Gin and Redis.
+                  </p>
+                  <div className="flex gap-2 mt-2 text-zinc-500 text-sm">
+                    <span>#go</span>
+                    <span>#gin</span>
+                    <span>#redis</span>
+                  </div>
+                </a>
+              </div>
+              {/* Project 4 */}
               <div className="border border-zinc-800 bg-zinc-900/30 p-4 rounded-lg hover:border-violet-500 transition-colors">
                 <a 
                   href="https://github.com/mihaidaniel34/Raycaster" 
@@ -166,28 +229,6 @@ const App: React.FC = () => {
                     <span>#sdl</span>
                     <span>#graphics</span>
                     <span>#gamedev</span>
-                  </div>
-                </a>
-              </div>
-              
-              {/* Project 2 */}
-              <div className="border border-zinc-800 bg-zinc-900/30 p-4 rounded-lg hover:border-violet-500 transition-colors">
-                <a 
-                  href="https://github.com/mihaidaniel34/bitcoin-in-rust" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="block"
-                >
-                  <h3 className="text-zinc-200 font-bold hover:text-violet-400 transition-colors">
-                    Bitcoin in Rust
-                  </h3>
-                  <p className="text-zinc-400 mt-2">
-                    Toy implementation of the Bitcoin protocol based on the original whitepaper. 
-                  </p>
-                  <div className="flex gap-2 mt-2 text-zinc-500 text-sm">
-                    <span>#rust</span>
-                    <span>#bitcoin</span>
-                    <span>#blockchain</span>
                   </div>
                 </a>
               </div>
